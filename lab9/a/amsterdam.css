@@ -1,0 +1,147 @@
+*
+{margin: 0}
+
+header {
+    /*text-align: left;*/
+    align-items: center;
+    color: #ece3d2;
+    border: 1px;
+    background-color: #382503;
+    /*width: 20%;*/
+    padding: 0 1%;
+    margin: auto;
+    font-size: calc(2px + 2vw);
+}
+.top {
+    margin: auto;
+    padding: 2% 5%;
+}
+#page-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #382503;
+    width: 100%;
+    margin: auto;
+    font-family: 'Open Sans', "serif";
+}
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: calc(5px + 1vw);
+}
+nav {
+    width: 100%;
+    /*margin: auto;*/
+    padding: 0 1%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1%;
+    font-size: calc(5px + 1vw);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+nav ul li a:hover {
+    background-color: #bdc696;
+}
+main{
+    background-color: #ece3d2;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+    padding: 2% 5%;
+}
+
+main li{
+    text-align: left;
+}
+
+main p{
+    color: #ece3d2;
+    border: 1px;
+    background-color: #333646;
+    padding: 30px;
+    text-align: left;
+    margin: 5px;
+}
+
+main h2{
+    color: #333646;
+    background-color: #ece3d2;
+    padding: 40px;
+}
+
+main h4{
+    color: #333646;
+    background-color: #ece3d2;
+}
+
+main img{
+    padding:2%;
+    max-width: 100%;
+}
+
+main h3{
+    padding-bottom: 30px;
+}
+
+footer{
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #BBAB8C;
+}
+
+/*nav{width: 100%;}*/
+/*main{width: 100%;}*/
+/*nav{width:30%;}*/
+main{width:70%;}
+@media screen and (max-width: 750px) {
+    #container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    header{
+        text-align: center;
+        display: block;
+        width: 100vw;
+    }
+    nav {
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100vw;
+    }
+
+    main {
+        width: 70%;
+    }
+    img {
+        width: 100%;
+    }
+    #check {
+        width: 100%;
+    }
+    #check-age{
+        width: 100%;
+    }
+}
