@@ -1,0 +1,250 @@
+/*CSS done by Lauren Yuen*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#page-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #382503;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: #ece3d2;
+    font-family: 'Open Sans', "serif";
+    font-size: calc(5px + 1vw);
+}
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1% 0;
+    font-size: calc(3px + 1vw);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.border{
+    border: solid #ece3d2;
+}
+#substances{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5em;
+}
+
+#content{
+    display: none;
+}
+
+label{
+    display: block;
+    text-align: center;
+    padding: 17% 20%;
+    color: #bdc696;
+    margin: auto;
+}
+
+input{
+    display: block;
+    text-align: center;
+    font-size: 100%;
+}
+
+button{
+    display: flex block;
+    text-align: center;
+    font-size: 100%;
+}
+
+#output{
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    color: #FAEED1;
+}
+
+#age{
+    border: solid #bdc696 5px;
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+}
+
+#check-age{
+    border: solid #bdc696 5px;
+    background-color: #bdc696;
+    color: white;
+    padding: 0.5%;
+    margin: 1% auto;
+
+}
+
+header {
+    margin: auto;
+    color: #ece3d2;
+    padding: 0 2%;
+    font-size: calc(5px + 1vw);
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1%;
+}
+
+nav ul li a {
+    color: #ece3d2;
+    text-decoration: none;
+    padding: 7%;
+}
+ul{
+    padding: 1%;
+}
+nav ul li a:hover {
+    background-color: #9e768f;
+    color: white;
+    border-radius: 6px;
+}
+
+main{
+    background-color: #ece3d2;
+    font-size: calc(8px + 1vw);
+    font-family: 'Open Sans', 'serif';
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+    padding: 2%;
+}
+
+main li{
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+    background-color: #333646;
+}
+
+main p{
+    color: #ece3d2;
+    border: 1px;
+    background-color: #333646;
+    padding: 5%;
+    text-align: left;
+    margin: 5px;
+}
+
+main h2{
+    color: #333646;
+    background-color: #ece3d2;
+    padding-bottom: 2%;
+}
+
+h3{
+    padding-top: 2%;
+}
+
+#lo{
+    padding-top: 2%
+}
+
+.top3{
+    padding: 3%;
+}
+
+main h4{
+    color: #333646;
+    background-color: #ece3d2;
+}
+
+main h3{
+    padding-bottom: 1%;
+}
+
+footer{
+    padding: 1% 0 0.5% 0;
+    text-align: center;
+    font-size: calc(5px + 1vw);
+    background-color: #382503;
+}
+footer a{
+    color: #ece3d2;
+}
+footer a:hover{
+    color: #dbdedb;
+}
+
+/*main{*/
+/*    width:70%;*/
+/*}*/
+@media screen and (max-width:750px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1% 0;
+        font-size: calc(5px + 1vw);
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+    ul{
+        padding-top: 3%;
+    }
+    #substances{
+        display: flex;
+        flex-direction: column;
+    }
+    .border{
+        padding: 2%;
+    }
+    main {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        margin: auto;
+        padding-right: 7%;
+    }
+    .images{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #check {
+        width: 20%;
+    }
+    #check-age{
+        width: 10%;
+        text-align: center;
+    }
+}
