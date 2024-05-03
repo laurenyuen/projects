@@ -1,0 +1,38 @@
+*
+{margin: 0}
+
+header {
+    padding-left: 0;
+    background-color: orange;
+    text-align: center;
+}
+
+nav{
+    background-color: #DED0B6;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    display:inline;
+    margin: auto;
+    padding: 10px;
+}
+nav ul li a{
+    border: solid orange;
+}
+div{
+    margin: auto;
+    text-align: center;
+    background-color: #FAEED1;
+}
+main{
+    background-color: #FDF7E4;
+
+}
+main p{
+    color: black;
+    padding: 10px;
+}
+footer{
+    background-color: darkorange;
+}

@@ -1,0 +1,33 @@
+*
+{margin: 0}
+
+header {
+    padding-left: 0;
+    background-color: lightpink;
+    text-align: center;
+
+}
+
+nav{
+    background-color: darkorange;
+}
+nav ul li{
+    display:inline;
+}
+div{
+    margin: auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+main{
+
+    background-color: cornflowerblue;
+}
+main p{
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    border: 1px solid black;
+    background-color: darkorange;
+}
