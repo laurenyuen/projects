@@ -1,0 +1,41 @@
+*
+{margin: 0}
+
+
+    #page-wrapper {
+        margin: auto;
+        width: 1200px;
+    }
+    #favorite{color: #BBAB8C}
+    #smallcaps{color: #FAEED1}
+    #smallcapss{color: #FAEED1}
+    #smallcaps{font: small-caps italic bold 30px Georgia, serif;}
+
+div {
+        background-color: darkred;
+    }
+        #border{
+            border: 10px solid pink
+        }
+        #margin{margin:10px}
+        #creamm{
+            background-color: #FAEED1}
+        #lightpinkk{
+            background-color: lightpink}
+        #pinkk{
+            background-color: hotpink}
+        #darkpinkk{
+            background-color: deeppink}
+        #cream{
+            color: #FAEED1}
+        #lightpink{
+            color: lightpink}
+        #pink{
+            color: hotpink}
+        #darkpink{
+            color: deeppink
+        }
+        .dumplings{
+            color: blue
+        }
+
