@@ -1,0 +1,6 @@
+user-agent:*
+
+disallow:/cs-103/
+allow:/cs-103/labs/lab3/b
+
+Sitemap:/larsume-sitemap.xml
