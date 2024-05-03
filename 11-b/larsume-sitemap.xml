@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>cs-103/labs/lab3/b/fancy-new-resume.html</loc>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/education-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/home-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/job-exp-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/professional-exp-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/project-exp-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/skills-fancy-new-resume.html</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>cs-103/labs/lab3/b/credits-fancy-new-resume.html</loc>
+        <lastmod>2024-02-05</lastmod>
+    </url>
+</urlset>
