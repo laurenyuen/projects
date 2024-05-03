@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    position: relative;
+    background-color: black;
+    width: 100%;
+}
+
+.text{
+    opacity: 0;
+    transition: opacity 2s;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 25%;
+    font-family: cursive;
+    font-size: calc(2px + 3vw);
+    color: black;
+}
+
+#tb1{
+    background-image: url("src/topboy1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    height: 50vh;
+    border: 7px solid white;
+    margin-top: 3%;
+
+    z-index: 2;
+}
+#tb1:hover .text{
+    opacity: 1;
+}
+
+#tb2{
+    background-image: url("src/topboy2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    height: 50vh;
+    border: 7px solid white;
+    margin-top: 3%;
+    z-index: 1
+}
+#tb2:hover .text{
+    opacity: 1;
+}
+
+#tb3{
+    background-image: url("src/topboy3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 50%;
+    width: 25%;
+    height: 50vh;
+    border: 7px solid white;
+    margin-top: 3%;
+    z-index: 3
+}
+#tb3:hover .text{
+    opacity: 1;
+}
+
+#tb4{
+    background-image: url("src/topboy4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    height: 50vh;
+    border: 7px solid white;
+    margin-top: 3%;
+    z-index: 2
+}
+#tb4:hover .text{
+    opacity: 4;
+}
+
