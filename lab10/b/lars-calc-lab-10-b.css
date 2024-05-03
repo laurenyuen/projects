@@ -1,0 +1,163 @@
+*
+{margin: 0}
+body{
+    background-image: url("src/background.jpeg");
+}
+#output {
+    color: red;
+    font-size: 100px;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#input-1{
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: turquoise;
+    margin: auto;
+    display: inline;
+}
+
+#input-2{
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: turquoise;
+    margin: auto;
+    display: inline;
+    align-items: center;
+}
+
+.input{
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: navy;
+    display: block;
+}
+
+#body{
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #382503;
+    width: 100%;
+    margin: auto;
+}
+
+.function{
+    display: block;
+    width: 10vw;
+}
+
+#addition{
+    border: solid turquoise 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    display: inline;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#subtraction{
+    border: solid turquoise 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    display: inline;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#multiplication{
+    border: solid turquoise 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    display: inline;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#division{
+    border: solid turquoise 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    display: inline;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#power{
+    border: solid turquoise 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 3%;
+    display: inline;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#clear{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-left: 50%;
+    font-size: 25px;
+    display: block;
+    width: 30vw;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .function {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin: auto;
+        padding-top: 5px;
+    }
+    #clear{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        width: 50vw;
+        margin: auto;
+    }
+}
